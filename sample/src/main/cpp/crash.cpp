@@ -21,4 +21,6 @@ Java_com_dodola_breakpad_MainActivity_crash2(JNIEnv *env, jobject thiz) {
 
     int a = 10;
     int j = a / 0;
+    int *p = nullptr;
+    *p = 0;
 }
